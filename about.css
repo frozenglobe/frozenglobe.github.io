@@ -1,0 +1,36 @@
+.contact {
+  width: 220px;
+  margin: auto;
+}
+
+.contactbutton {
+  border: none;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: var(--lightest-grey);
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition-duration: 0.5s;
+}
+
+.contactbutton:hover {
+  background-color: var(--light-grey);
+  transition-duration: 0.5s;
+}
+
+#twitter {
+  background-image: url("icons/twitter.png");
+  background-size: 50px 50px;
+}
+
+#email {
+  background-image: url("icons/email.png");
+  background-size: 50px 50px;
+}
+
+#youtube {
+  background-image: url("icons/youtube2.png");
+  background-size: 50px 50px;
+}

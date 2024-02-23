@@ -1,0 +1,29 @@
+.linkttb {
+  width: 328px;
+}
+
+.linkbuttonttb {
+  width: 278px;
+}
+
+.linkdoc {
+  width: 198px;
+}
+
+.linkbuttondoc {
+  width: 148px;
+}
+
+.ttbimg {
+  display: block;
+  width: 98.5%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.spotembed {
+  display: block;
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}

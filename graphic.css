@@ -1,0 +1,167 @@
+.leftgblock {
+  height: inherit;
+  /* background-color: blue; */
+  float: left;
+}
+
+.rightgblock {
+  height: 100%;
+  background-color: white;
+  float: right;
+}
+
+/* .possum {
+  background-color: green;
+  height: 100px;
+} */
+
+.gcontainer {
+  position: relative;
+  margin: 10px 0px 0px 10px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: green; */
+}
+
+.imgcaption {
+  opacity: 0;
+  width: 100%;
+  text-align: center;
+  color: var(--lightest-grey);
+  position: absolute;
+  bottom: 5px;
+}
+
+.gcontainer:hover {
+  /* filter: brightness(40%); */
+  box-shadow: inset 0 0 40px black;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.gcontainer:hover > .imgcaption {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+#tedtheme {
+  width: 48%;
+  height: 217px;
+  background-image: url("tedx/theme.png");
+  float: left;
+}
+
+#teddate {
+  width: 24%;
+  height: 217px;
+  background-image: url("tedx/date.jpg");
+  float: left;
+}
+
+#tedcaption {
+  width: 24%;
+  height: 217px;
+  background-image: url("tedx/title.jpg");
+  float: left;
+}
+
+.tedspeaker {
+  width: 23%;
+  height: 210px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+#tsone {
+  background-image: url("tedx/marko.jpg");
+  margin-left: 20px;
+}
+
+#tstwo {
+  background-image: url("tedx/ais.jpg");
+}
+
+#tsthree {
+  background-image: url("tedx/thomas.jpg");
+}
+
+#tsfour {
+  background-image: url("tedx/vincent.jpg");
+}
+
+#over {
+  width: 100%;
+  height: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#exit {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  z-index: 12;
+}
+
+#exit:hover {
+  cursor: pointer;
+}
+
+.overback {
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  background-color: white;
+}
+
+.imgdis {
+  z-index: 11;
+  position: fixed;
+  width: 100%;
+  height: 90%;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.tedtheme {
+  background-image: url("tedx/theme.png");
+}
+
+.teddate {
+  background-image: url("tedx/date.jpg");
+}
+
+/* #over2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+} */
+
+.linkmc {
+  width: 182px;
+}
+
+.linkbuttonmc {
+  width: 132px;
+}
