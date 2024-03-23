@@ -86,6 +86,14 @@ nav a:hover {
   font-size: 20px;
 }
 
+.headerthree {
+  position: relative;
+  padding-left: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
 .blockview {
   width: 90%;
   height: 400px;
@@ -162,6 +170,10 @@ nav a:hover {
   padding-left: 20%;
   color: var(--grey);
   margin-bottom: 100px;
+}
+
+p {
+  padding-bottom:10px;
 }
 
 .block {
@@ -270,6 +282,7 @@ nav a:hover {
 .linkedtext {
   color: black;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .linkedtext:hover {
@@ -277,7 +290,15 @@ nav a:hover {
   transition-duration: 0.2s;
 }
 
+.linkedtext2 {
+  color: var(--grey);
+  text-decoration: underline;
+}
 
+.linkedtext2:hover {
+  color: #4ea0b5;
+  transition-duration: 0.2s;
+}
 
 
 
