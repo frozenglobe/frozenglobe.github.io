@@ -86,12 +86,12 @@ nav a:hover {
   font-size: 20px;
 }
 
-.headerthree {
+.headerfour {
   position: relative;
   padding-left: 20%;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 16px;
+  font-size: 14pt;
 }
 
 .blockview {
@@ -185,9 +185,9 @@ p {
 }
 
 .headerthree {
-  font-size: 20px;
   text-align: center;
   padding: 40px;
+  font-size: 16pt;
 }
 
 .sidebyside {
