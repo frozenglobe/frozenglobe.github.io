@@ -176,6 +176,11 @@ p {
   padding-bottom:10px;
 }
 
+ul {
+  padding-bottom:10px;
+  padding-left:30px;
+}
+
 .block {
   width: 90%;
   margin-left: 5%;
